@@ -27,3 +27,15 @@ Você pode instalar estas bibliotecas usando pip:
 
 ```bash
 pip install textwrap datetime pytz
+
+## Organização Futura
+
+Planejo adicionar um novo código chamado `desafio_poo.py`, que simulará um sistema bancário utilizando Programação Orientada a Objetos (POO). Este código incluirá grande parte das funcionalidades dos códigos anteriores, mas será estruturado com POO.
+
+## Links Úteis
+
+- [Curso de Fundamentos de Python na DIO](https://web.dio.me/track/formacao-python-fundamentals)
+
+## Licença
+
+Você pode usar, modificar e distribuir este projeto conforme desejar, desde que mantenha a atribuição original.
