@@ -1,11 +1,11 @@
-# dio_python_fundamentals
+# Fundamentos de Python
 
 Este repositório foi criado para guardar os códigos referentes aos desafios do curso de fundamentos de Python da plataforma DIO.
 
 ## Códigos Incluídos
 
-* **Desafio 1:** [Nome do Desafio 1]
-    * Descrição breve do Desafio 1.
+* **Desafio 1**: Simulação de Sistema Bancário
+    * Este desafio consiste em simular um sistema bancário simples, que permite realizar as operações de depósito, saque e verificação de extrato. O sistema possui um limite diário de saques e um limite máximo para cada saque.
 
 * **Desafio 2:** [Nome do Desafio 2]
     * Descrição breve do Desafio 2.
