@@ -9,7 +9,7 @@ Este repositório foi criado para guardar os códigos referentes aos desafios do
 
 * **Desafio 2:** Sistema Bancário com Funções e Validação de CPF
     * Este desafio consiste em simular um sistema bancário que permite realizar operações de depósito, saque, verificação de extrato, criação de novas contas e novos usuários, e listagem de contas. O sistema inclui validação de CPF para a criação de usuários e utiliza funções para organizar o código.
-    * 
+      
 * **Desafio 3:** Sistema Bancário com Limite Diário de Transações
     * Este desafio consiste em simular um sistema bancário que permite realizar operações de depósito, saque e verificação de extrato, com um limite diário de transações. O sistema utiliza a biblioteca datetime para gerenciar a data e hora das transações e pytz para definir o fuso horário.
 
