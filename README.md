@@ -1,4 +1,4 @@
-# Fundamentos de Python
+# Desafios Trilha Python DIO
 
 Este repositório foi criado para guardar os códigos referentes aos desafios do curso de fundamentos de Python da plataforma DIO.
 
