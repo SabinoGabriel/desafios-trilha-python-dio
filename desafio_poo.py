@@ -117,24 +117,32 @@ class ContaCorrente(Conta):
         super().__init__(numero, cliente)
         self._limite = limite
         self._limite_saques = limite_saques
-        self._saques_realizados = 0
 
     def sacar(self, valor):
-        excedeu_saldo = valor > self.saldo
-        if excedeu_saldo:
-            print("Saldo insuficiente")
-        elif self._saques_realizados >= self._limite_saques:
-            print("Limite de saques excedido")
-        elif valor > self._limite:
-            print("Limite de saque excedido")
+        numero_saques = len(
+            [transacao for transacao in self.historico.transacoes if transacao["tipo"] == Saque.__name__]
+        )
+
+        excedeu_limite = valor > self._limite
+        excedeu_saques = numero_saques >= self._limite_saques
+
+        if excedeu_limite:
+            print("\n@@@ Operação falhou! O valor do saque excede o limite. @@@")
+
+        elif excedeu_saques:
+            print("\n@@@ Operação falhou! Número máximo de saques excedido. @@@")
+
         else:
-            self._saques_realizados += 1
             return super().sacar(valor)
-        
+
         return False
 
     def __str__(self):
-        return f"Conta Corrente\nNúmero: {self.numero}\nAgência: {self.agencia}\nNome: {self.cliente.nome}\n"
+        return f"""\
+            Agência:\t{self.agencia}
+            C/C:\t\t{self.numero}
+            Titular:\t{self.cliente.nome}
+        """
 
 class Historico:
     def __init__(self):
