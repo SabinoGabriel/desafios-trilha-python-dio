@@ -12,6 +12,9 @@ Este repositório foi criado para guardar os códigos referentes aos desafios do
       
 * **Desafio 3:** Sistema Bancário com Limite Diário de Transações
     * Este desafio consiste em simular um sistema bancário que permite realizar operações de depósito, saque e verificação de extrato, com um limite diário de transações. O sistema utiliza a biblioteca datetime para gerenciar a data e hora das transações e pytz para definir o fuso horário.
+ 
+* **Desafio 4:** Sistema Bancário Orientado a Objetos
+    * Este desafio consiste em simular um sistema bancário utilizando os princípios da Programação Orientada a Objetos (POO). O sistema permite realizar operações de depósito, saque, verificação de extrato, criação de novas contas e novos usuários, além de incluir funcionalidades como validação de CPF e limite diário de saques. O objetivo é aplicar conceitos como herança, encapsulamento e polimorfismo.
 
 ## Instruções de Instalação
 
